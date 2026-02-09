@@ -18,9 +18,7 @@ Each script:
 
 ### 1) `EM_Cline_density_fixed_volume.m` (electromagnetic C-lines)
 **Purpose:** Estimate C-line density for a random 3D complex electromagnetic field $$\mathbf{E}(\mathbf{x})$$, with
-$
-C(\mathbf{x}) = E_x^2 + E_y^2 + E_z^2.
-$
+$C(\mathbf{x}) = E_x^2 + E_y^2 + E_z^2.$
 
 **Key parameters (top of script):**
 - `nWaves` — number of plane waves (larger → closer to Gaussian ensemble)
@@ -39,9 +37,7 @@ $
 
 ### 2) `GW_Cline_density_fixed_volume_cpu_blocked.m` (GW C-lines, CPU, z-blocked + parfor)
 **Purpose:** Estimate C-line density for random gravitational-wave fields using a strain-tensor construction. The scalar
-$
-C(\mathbf{x}) = h_{11}^2 + h_{22}^2 + h_{33}^2 + 2(h_{12}^2 + h_{13}^2 + h_{23}^2)
-$
+$C(\mathbf{x}) = h_{11}^2 + h_{22}^2 + h_{33}^2 + 2(h_{12}^2 + h_{13}^2 + h_{23}^2)$
 is computed from complex strain components assembled from plane waves.
 
 **Key features:**
