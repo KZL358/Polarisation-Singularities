@@ -12,7 +12,7 @@ The scripts demonstrate the **stability of these singular structures under small
 Each workflow:
 
 1. Builds a complex field from a controlled superposition of plane waves.
-2. Computes the scalar quantity defining C-lines.
+2. Computes the scalar quantity defining polarisation singularities. 
 3. Extracts nodal structures on a 3D Cartesian grid.
 4. Generates either individual frames or a full video showing their evolution.
 5. Varies the wave configuration smoothly to illustrate structural stability.
@@ -25,8 +25,6 @@ Each workflow:
 
 **Purpose:**  
 Generates a video showing C-lines and L-lines for a complex electromagnetic field configuration that smoothly transitions from 3 to 4 plane waves.
-
-This demonstrates that polarization singularities remain stable under small perturbations of the field.
 
 **Notes:**
 - Fully self-contained script (frame generation + video writing).
@@ -58,6 +56,7 @@ Creates a video using the precomputed frames from `GR_generation_frames.m`.
 - Does not recompute the field.
 - Only handles visualisation and video writing.
 - Fast once frames are available.
+- The L-points are less stable because of the interpolation procedure. We aim to fix that in future reports. 
 
 ---
 
