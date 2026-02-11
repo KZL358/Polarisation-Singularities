@@ -114,3 +114,15 @@ Number of frames in the video.
 3. For EM:
    ```matlab
    EM_video.m
+4. For GR :
+   ```matlab
+   GR_generation_frames.m
+   GR_video.m
+
+---
+
+### Computational Notes 
+- The EM case is relatively lightweight.
+- The GR case is more computationally expensive due to its tensorial structure.
+- High `gridN` and large `nFrames` substantially increase runtime.
+- Separating frame generation from video assembly avoids unnecessary recomputation.
