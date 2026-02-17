@@ -1,6 +1,6 @@
 # Polarisation Singularities
 
-this is a companion repository to the paper [](https://arxiv.org/abs/), used to generate the figures, videos and simulations to compute the density of C-lines. 
+This is a companion repository to the paper [2602](https://arxiv.org/abs/), used to generate the figures, videos and simulations to compute the density of C-lines. 
 
 ## Requirements:
 - MATLAB Parallel Computing Toolbox and a supported CUDA GPU.
