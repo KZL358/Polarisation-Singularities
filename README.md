@@ -17,7 +17,7 @@ This is a companion repository to the paper [2602](https://arxiv.org/abs/), used
 We split the content into three separate folders, each with their own readme file. 
 * [Density](https://github.com/KZL358/Polarisation-Singularities/tree/main/Density) - This folder gives the codes necessary to compute the C-lines densities for Electromagnetic and Gravitational waves.
 * [Figure](https://github.com/KZL358/Polarisation-Singularities/tree/main/Figure) - This folder gives the codes necessary to Plot the polarisation Singularities for Electromagnetic and Gravitational Waves. This is useful to reproduce Fig.(3) of the companion [paper](https://arxiv.org/abs/).
-* [Video](https://github.com/KZL358/Polarisation-Singularities/tree/main/Video) - This folder gives the codes necessary to produce the video showing the deformation of polarisation singularities when perturbed. 
+* [Video](https://github.com/KZL358/Polarisation-Singularities/tree/main/Video) - This folder gives the codes necessary to produce the video showing the deformation of polarisation singularities when perturbed, as well as the result in mp4 and gif formats.
 
 ## Authors
 * Kyan Louisia
