@@ -1,4 +1,7 @@
 # Polarisation Singularities
+[![arXiv](https://img.shields.io/badge/arXiv-2602.23425-crimson)](https://arxiv.org/abs/2602.23425)
+
+
 
 This is a companion repository to the paper [2602.23425](https://arxiv.org/abs/2602.23425), used to generate the figures, videos and simulations to compute the density of C-lines. 
 
